@@ -1,0 +1,48 @@
+
+PART 1 - BASIC LINUX COMMANDS
+
+1. Check current working directory
+pwd
+
+2. Check current user
+whoami
+
+3. Create company directory
+sudo mkdir -p /opt/company
+
+4. Create subdirectories
+sudo mkdir -p /opt/company/logs
+sudo mkdir -p /opt/company/backup
+sudo mkdir -p /opt/company/scripts
+sudo mkdir -p /opt/company/config
+
+5. Create five log files
+sudo touch /opt/company/logs/access.log
+sudo touch /opt/company/logs/error.log
+sudo touch /opt/company/logs/system.log
+sudo touch /opt/company/logs/security.log
+sudo touch /opt/company/logs/application.log
+
+6. Create application.log
+sudo touch /opt/company/application.log
+
+7. Copy application.log
+sudo cp /opt/company/application.log /opt/company/backup/
+
+8. Rename application.log
+sudo mv /opt/company/application.log /opt/company/app-2026.log
+
+9. Move security.log
+sudo mv /opt/company/logs/security.log /opt/company/backup/
+
+10. Find all log files
+sudo find /opt/company -type f -name "*.log"
+
+11. Display permissions and ownership
+sudo ls -lR /opt/company
+
+12. Display current working directory
+pwd
+
+13. Create directory listing
+sudo ls -lR /opt/company | sudo tee /opt/company/directory_listing.txt

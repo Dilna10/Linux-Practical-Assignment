@@ -1,0 +1,26 @@
+/opt/company:
+total 20
+-rw-r--r-- 1 root root    0 Nov 26 02:10 app-2026.log
+drwxr-xr-x 2 root root 4096 Nov 26 02:13 backup
+drwxr-xr-x 2 root root 4096 Nov 26 02:03 config
+-rw-r--r-- 1 root root  687 Nov 26 02:22 directory_listing.txt
+drwxr-xr-x 2 root root 4096 Nov 26 02:13 logs
+drwxr-xr-x 2 root root 4096 Nov 26 02:03 scripts
+
+/opt/company/backup:
+total 0
+-rw-r--r-- 1 root root 0 Nov 26 02:11 application.log
+-rw-r--r-- 1 root root 0 Nov 26 02:08 security.log
+
+/opt/company/config:
+total 0
+
+/opt/company/logs:
+total 0
+-rw-r--r-- 1 root root 0 Nov 26 02:06 data.log
+-rw-r--r-- 1 root root 0 Nov 26 02:06 error.log
+-rw-r--r-- 1 root root 0 Nov 26 02:07 firewall.log
+-rw-r--r-- 1 root root 0 Nov 26 02:08 system.log
+
+/opt/company/scripts:
+total 0
