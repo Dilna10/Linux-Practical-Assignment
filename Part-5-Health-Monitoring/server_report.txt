@@ -1,0 +1,27 @@
+SERVER HEALTH REPORT
+Date and Time: Fri Nov 27 01:32:36 UTC 2026
+Hostname: ip-172-31-37-97
+
+Root Filesystem Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.7G  2.3G  4.4G  35% /
+
+Memory Information:
+               total        used        free      shared  buff/cache   available
+Mem:           908Mi       326Mi       219Mi       2.7Mi       478Mi       582Mi
+Swap:             0B          0B          0B
+Available Memory: 582Mi
+
+System Uptime:
+ 01:32:36 up  4:10,  1 user,  load average: 0.00, 0.00, 0.00
+
+Top 5 CPU-Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        6155  1.6  4.7 364212 43800 ?        Ssl  01:32   0:00 /usr/libexec/fwupd/fwupd
+root         946  0.0  3.3 1990956 31616 ?       Sl   Nov26   0:06 /snap/amazon-ssm-agent/13349/ssm-agent-worker
+root           1  0.0  1.6  25084 15596 ?        Ss   Nov26   0:03 /sbin/init
+root        5990  0.0  0.0      0     0 ?        I    01:10   0:00 [kworker/0:1-events]
+root        4930  0.0  0.0      0     0 ?        I    00:40   0:00 [kworker/1:2-events]
+
+Application Status:
+Application cron is running.
